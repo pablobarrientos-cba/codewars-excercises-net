@@ -1,5 +1,4 @@
-namespace codewars_excercises_net
-{
+
     public partial class ConsoleHelper
     {
         public static void WriteSeparator()
@@ -9,4 +8,3 @@ namespace codewars_excercises_net
             Console.WriteLine();
         }
     }
-}

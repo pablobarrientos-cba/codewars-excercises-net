@@ -1,3 +1,3 @@
-﻿using codewars_excercises_net._7kiu;
-
-Solution.DoReverseSentence(); // Reverse each Word in Sentence
+﻿
+// Solution.DoReverseSentence(); // Reverse words in a sentence
+Console.WriteLine(Solution.DoDescendingOrderBest(5434567)); // Return Descending order

@@ -1,8 +1,4 @@
-﻿using codewars_excercises_net;
-
-namespace codewars_excercises_net._7kiu
-{
-    public partial class Solution
+﻿    public static partial class Solution
     {
         /*
          Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
@@ -17,7 +13,6 @@ namespace codewars_excercises_net._7kiu
             ConsoleHelper.WriteSeparator();
             Console.WriteLine("Reversing: This is an example!");
             Console.WriteLine(GetReversedSentence("This is an example!"));
-        ;
         }
 
         private static string GetReversedSentence(string str)
@@ -35,4 +30,4 @@ namespace codewars_excercises_net._7kiu
             return String.Join(" ", reversedWords);
         }
     }
-}
+
