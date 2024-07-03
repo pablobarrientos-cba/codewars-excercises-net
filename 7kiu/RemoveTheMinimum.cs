@@ -6,11 +6,8 @@ If the word's length is even, return the middle 2 characters.
 
 Examples
 Kata.getMiddle("test") should return "es"
-
 Kata.getMiddle("testing") should return "t"
-
 Kata.getMiddle("middle") should return "dd"
-
 Kata.getMiddle("A") should return "A"
 */
 
