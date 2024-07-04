@@ -11,7 +11,7 @@ Kata.getMiddle("middle") should return "dd"
 Kata.getMiddle("A") should return "A"
 */
 
-public static class Kata
+public static partial class Kata
 {
   public static string GetMiddle(string s)
   {
