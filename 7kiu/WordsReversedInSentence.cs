@@ -8,13 +8,6 @@
         "double  spaces"      ==> "elbuod  secaps"
          */
 
-        public static void DoReverseSentence()
-        {
-            ConsoleHelper.WriteSeparator();
-            Console.WriteLine("Reversing: This is an example!");
-            Console.WriteLine(GetReversedSentence("This is an example!"));
-        }
-
         private static string GetReversedSentence(string str)
         {
             var words = str.Split(' ');
